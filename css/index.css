@@ -115,13 +115,20 @@
  	height: 800px;
  }
 
+article{
+	margin: 45px 0;
+}
+
+.meg{
+	margin-top: 30px;
+	color: #555555;
+	font-size: 16px;
+}
 footer{
 	width: 100%;
-
 	background-color: #2F3032;
 }
 .ftdiv1{
-
 	margin: 0 auto;
 	width: 75%;
 }
@@ -142,7 +149,7 @@ footer{
 }
 .ftdiv1 li a:hover{
 	text-decoration: none;
-	color: #EF634A;
+	color: #337AB7;
 }
 .follow{
 	width: 20px;
