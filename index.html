@@ -29,9 +29,9 @@
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav " id="hoverdrop">
 					<li class="active" >
-						<a href="#home"  data-toggle="tab" >
+						<a href="#home"   class="dropdown-toggle" data-toggle="dropdown">
 						<span class="glyphicon glyphicon-home"></span>
-							Home					 					 
+							首页					 					 
 						 <span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu">
@@ -41,36 +41,24 @@
 						</ul>
 					</li>
 					<li class="dropdown">
-						<a href="#shop" data-toggle="tab">
-							<span class="glyphicon glyphicon-shopping-cart"></span> 
-							Shop
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">  
-	                        <li><a href="#">collect</a></li>  
-	                        <li><a href="#">reconmend</a></li>  
-	                        <li><a href="#">popular</a></li>  	                          
-	                    </ul>  
+						<a href="#shop" >	
+							<span class="glyphicon glyphicon-eye-open"></span>
+							 发现	
+						</a>						  
 					</li>
 					<li>
-						<a href="#other"  data-toggle="tab">
-							<span class="glyphicon glyphicon-headphones"></span>
-							 Other
-							 <span class="caret"></span>
+						<a href="#other"  >	
+							<span class="glyphicon glyphicon-heart"></span>
+							收藏						 
 						</a>
-						<ul class="dropdown-menu">  
-	                        <li><a href="#">blog</a></li>  
-	                        <li><a href="#">github</a></li>  
-	                        <li><a href="#">facebook</a></li>  	                         
-	                    </ul> 
 					</li>
 					
 				</ul>
 				
 				<ul class="nav navbar-nav navbar-right">
 				  <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="3个未读消息"><span class="glyphicon glyphicon-envelope"></span> 邮件<span class="badge">3</span></a></li>
-			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
-			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+			      <li data-toggle="modal" data-target="#modalenrol"><a href="#"><span class="glyphicon glyphicon-user"></span> 注册</a></li>
+			      <li data-toggle="modal" data-target="#modalenter"><a href="#"><span class="glyphicon glyphicon-log-in " ></span> 登录</a></li>
 			    </ul>
 			</div><!-- /.nav-collapse -->
 			
@@ -146,74 +134,95 @@
 	 	
 	 	<article >
 	 		<div class="container">	 
-	 			<h2>art originates from life</h2>		
+	 			<h2>life</h2>		
 		 		<div class="row  text-center mesgrow">
 		 		  
 		 			 	
 			 		<div class="col-sm-6 ">
-			 		  <div class="meg">
-				 		  Art is reflected in life and performance in life, but also from life and is an artist based
-						  by their expression way to express my self, is to express feelings and to reflect the social reality of medium.
-						  Sketch, as a kind of art and life, nature is closely related to the visual expression
-						 form, has its own value and significance.
+			 		  <div class="meg ">
+			 		  	 行走在东京，白天会感受到这座城市到处弥漫着清新，晚上则是灯红酒绿，但无论什么时候，你都会很容易被走在街上的某一个人吸引，言行举止亦或是穿着品味，都能让你发现一丝丝的独特之处。		 		
 			 		  </div>
 			 		</div>
 			 		<div class="col-sm-6 rowimg">
-			 			<img src="img/Tokyou2.jpg" />
+			 			<img src="img/tokyo.jpg" />
 			 		</div>
 			 	</div>
 			 	<div class="row  text-center mesgrow">
 			 		
 			 		<div class="col-sm-6  col-sm-push-6">
-			 		  <div class="meg  ">
-				 		  Art is reflected in life and performance in life, but also from life and is an artist based
-						  by their expression way to express my self, is to express feelings and to reflect the social reality of medium.
-						  
+			 		  <div class="meg  ">				 		 						
+						无论是一个人，两个人，三个人，
+						亦或是一群人。<br />
+						我们总能在不同的阶段拥有不同的收获，<br />
+						生活中学会独处，<br />
+						感情里学着陪伴，<br />
+						工作中学习合作。<br />
+						当我们独自前行的时候，<br />
+						要珍惜那些陪伴的日子，<br />
+						那将会是我们人生道路中最珍贵的时刻，<br />
+						帮助我们前行的一股力量。
 			 		  </div>
 			 		</div>
 			 		<div class="col-sm-6 col-sm-pull-6 rowimg ">
-			 			<img src="img/3.jpg" />
+			 			<img src="img/together.jpg" />
 			 		</div>
 			 	</div>
 			 
+		 		<div class="row text-center">
+		 			<div class="col-md-8 col-md-offset-2 ">
+		 				<div class="meg">
+		 					<h2>daily</h2>
+		 					<p>
+			 				坐在门口思考了好久都不知道该穿哪一双鞋子;
+			 				小区里有许多流浪猫，它们已经在外面度过了一整个寒冬，梅雨季节实在让人讨厌，为小野猫们安置个小居所;
+			 				找个人少的时间，看场电影;
+			 				挑一个偏僻的美术馆，看一场冷门的画展;
+			 				午饭后的超市人流很少，带上耳机悠闲地逛超市;
+						    </p>
+		 				</div>
+		 				
+			 			
+		 			</div>
+		 			
+		 		</div>
 		 		
 		 		<div class="row   boxtex">
 					<div class="col-lg-4 col-md-4 boxt">
-						<div class="boximg">
-							<img src="img/one1.gif" />							
+						<div class="boximg" style="background-image:url(img/one1.gif);">
+							<!--<img src="img/one1.gif" />	-->						
 						</div>
 						<div class="boxtext ">
-							<h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-							<span>Sep. 15th</span>					
+							<h3><a href="#">一个人</a></h3>
+							<span>Apr. 4th</span>					
 							<p>
-								Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+								我开始喜欢下雨的日子，喜欢一个人安静的待在房间，看着窗外听着雨水拍打在叶子上发出唦唦的声音。
 							</p>
 							<button class="btn btn-primary rounded">More</button>
 						</div>
 						
 					</div>
 					<div class="col-lg-4 col-md-4 boxt">
-						<div class="boximg">
-							<img src="img/one1.gif" />							
+						<div class="boximg" style="background-image: url(img/two.gif);">
+							<!--<img src="img/two.gif" />-->							
 						</div>
 						<div class="boxtext">
-						<h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-						<span>Sep. 15th</span>					
+						<h3><a href="#">我和奶奶</a></h3>
+						<span>Feb. 8th</span>					
 						<p>
-							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							也许再也见不到，但我仍相信，往后的每一步脚印都承载了你的重量 ，在我内心深处，伴我前行。
 						</p>
 						<button class="btn btn-primary rounded">More</button>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 boxt">
-						<div class="boximg">
-							<img src="img/one1.gif" />							
+						<div class="boximg" style="background-image: url(img/three.gif);">
+						<!--	<img src="img/three.gif" />		-->					
 						</div>
 						<div class="boxtext">
-						<h3><a href="#">45 Minimal Worksspace Rooms for Web Savvys</a></h3>
-						<span >Sep. 15th</span>						
+						<h3><a href="#">勇敢</a></h3>
+						<span >Mar. 28th</span>						
 						<p>
-							Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+							也许生活总要承受一些孤独，总会面对一些磕碰，这些来自生活的考验，在我们的人生日程里刻下“勇敢”二字。
 						</p>
 						<button class="btn btn-primary rounded">More</button>
 						</div>
@@ -262,8 +271,80 @@
 			</footer>
 		
 		<!--modol1-->
-		<div class="modal fade text-center " id="modal1" tabindex="-1">
+		<!--登录modal-->
+		<div class="modal fade" id="modalenter" tabindex="-1" ><!--fade淡入淡出    tabindex使按esc键可关闭modal-->
 			<div class="modal-dialog"  >
+				<div class="modal-content" > <!--madal框-->
+					<div class="modal-header">
+						<button   class="close " data-dismiss="modal" >&times;</button> <!--data-dismiss="modal"为关闭modal -->
+						<h4 class="modal-title">fantasy</h4>						
+					</div>
+					<div class="modal-body" >
+						<form class="enter">
+							<br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-user "></span>
+								<input type="text" class="form-control" placeholder="用户名" required="required"/>
+							</div><br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
+								<input type="password" class="form-control" placeholder="密码" required="required" />
+							</div><br />
+							<input type="checkbox"/><label>下次自动登录</label>
+							<a href="#" >忘记密码</a><br /><br />
+							<button class="btn btn-success form-control rounded">登录</button>
+						</form>
+						
+					</div>
+					<div class="modal-footer">					
+						<button class="btn btn-danger rounded" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>				
+			</div>			
+		</div>
+		
+		<!--注册modal-->
+		<div class="modal fade" id="modalenrol" tabindex="-1" ><!--fade淡入淡出    tabindex使按esc键可关闭modal-->
+			<div class="modal-dialog"  >
+				<div class="modal-content" > <!--madal框-->
+					<div class="modal-header">
+						<button   class="close " data-dismiss="modal" >&times;</button> <!--data-dismiss="modal"为关闭modal -->
+						<h4 class="modal-title">fantasy</h4>						
+					</div>
+					<div class="modal-body" >
+						<form class="enrol">
+							<br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-envelope "></span>
+								<input type="text" class="form-control" placeholder="邮箱" required="required"/>
+							</div><br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
+								<input type="password" class="form-control" placeholder="密码" required="required" />							
+							</div><br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
+								<input type="password" class="form-control" placeholder="再次输入密码" required="required" />							
+							</div><br />
+							<div class="input-group ">
+								<span class="input-group-addon glyphicon glyphicon-phone" ></span>
+								<input type="password" class="form-control" placeholder="手机号码" required="required" />							
+							</div><br />
+							<button class="btn btn-success form-control rounded">注册</button>
+								
+						</form>
+						
+					</div>
+					<div class="modal-footer">					
+						<button class="btn btn-danger rounded" data-dismiss="modal">Cancel</button>
+					</div>
+				</div>				
+			</div>			
+		</div>
+		
+		</div>
+		<div class="modal fade text-center " id="modal1" tabindex="-1">
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  > 
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button>
@@ -271,7 +352,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>
 					</div>
 					<div class="modal-body">
-						<iframe src="mtg.html" ></iframe>						
+						<iframe src="file/mtg.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
@@ -280,7 +361,7 @@
 			</div>			
 		</div>
 		<div class="modal fade text-center " id="modal2" tabindex="-1">
-			<div class="modal-dialog"  >
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  > 
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button> 
@@ -288,7 +369,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>
 					</div>
 					<div class="modal-body">
-						<iframe src="tk.html" ></iframe>						
+						<iframe src="file/tk.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
@@ -297,7 +378,7 @@
 			</div>			
 		</div>
 		<div class="modal fade text-center " id="modal3" tabindex="-1">
-			<div class="modal-dialog"  >
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  >
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button>
@@ -305,7 +386,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>					
 					</div>
 					<div class="modal-body">
-						<iframe src="tk.html" ></iframe>						
+						<iframe src="file/ty.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
@@ -314,7 +395,7 @@
 			</div>			
 		</div>
 		<div class="modal fade text-center " id="modal4" tabindex="-1">
-			<div class="modal-dialog"  >
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  > 
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button>
@@ -322,7 +403,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>
 					</div>
 					<div class="modal-body">
-						<iframe src="wd.html" ></iframe>						
+						<iframe src="file/wd.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
@@ -331,7 +412,7 @@
 			</div>			
 		</div>
 		<div class="modal fade text-center " id="modal5" tabindex="-1">
-			<div class="modal-dialog"  >
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  > 
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button>
@@ -339,7 +420,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>
 					</div>
 					<div class="modal-body">
-						<iframe src="md.html" ></iframe>						
+						<iframe src="file/md.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
@@ -348,7 +429,7 @@
 			</div>			
 		</div>
 		<div class="modal fade text-center " id="modal6" tabindex="-1">
-			<div class="modal-dialog"  >
+			<div class="modal-dialog view"  >
 				<div class="modal-content"  > 
 					<div class="modal-header">
 						<button   class="close" data-dismiss="modal" >&times;</button>
@@ -356,7 +437,7 @@
 						<h4 class="modal-title text-primary" >原作者   饭太稀</h4>
 					</div>
 					<div class="modal-body">
-						<iframe src="st.html" ></iframe>						
+						<iframe src="file/st.html" ></iframe>						
 					</div>
 					<div class="modal-footer">						
 						<button class="btn btn-primary" data-dismiss="modal">colse</button>
