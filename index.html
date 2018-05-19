@@ -170,8 +170,9 @@
 			 
 		 		<div class="row text-center">
 		 			<div class="col-md-8 col-md-offset-2 ">
+		 				<h2>daily</h2>
 		 				<div class="meg">
-		 					<h2>daily</h2>
+		 					
 		 					<p>
 			 				坐在门口思考了好久都不知道该穿哪一双鞋子;
 			 				小区里有许多流浪猫，它们已经在外面度过了一整个寒冬，梅雨季节实在让人讨厌，为小野猫们安置个小居所;
@@ -187,17 +188,22 @@
 		 		</div>
 		 		
 		 		<div class="row   boxtex">
-					<div class="col-lg-4 col-md-4 boxt">
+					<div class="col-lg-4 col-md-4 boxt ">
 						<div class="boximg" style="background-image:url(img/one1.gif);">
 							<!--<img src="img/one1.gif" />	-->						
 						</div>
 						<div class="boxtext ">
-							<h3><a href="#">一个人</a></h3>
-							<span>Apr. 4th</span>					
-							<p>
-								我开始喜欢下雨的日子，喜欢一个人安静的待在房间，看着窗外听着雨水拍打在叶子上发出唦唦的声音。
-							</p>
-							<button class="btn btn-primary rounded">More</button>
+							<div id="fix1" class="fixedbox" >								
+								<h3><a href="#">一个人</a></h3>
+								<span>Apr. 4th</span>					
+								<p>
+									我开始喜欢下雨的日子，喜欢一个人安静的待在房间，看着窗外听着雨水拍打在叶子上发出唦唦的声音。<br /><br />
+									我很少出门，并不是因为下雨的原因，即使是好天气，大部分时间也是窝在家里画画。<br />
+									但我更喜欢下雨天，街上的人好像都消失了似得，整座城市都会安静下来。																		
+								</p>									
+							</div>
+							<button id="mo1" class="btn btn-primary rounded more" onclick="more(1)">More</button>
+							<button id="le1"  class="btn btn-primary rounded hi" onclick="less(1)">Close</button>						
 						</div>
 						
 					</div>
@@ -206,12 +212,18 @@
 							<!--<img src="img/two.gif" />-->							
 						</div>
 						<div class="boxtext">
-						<h3><a href="#">我和奶奶</a></h3>
-						<span>Feb. 8th</span>					
-						<p>
-							也许再也见不到，但我仍相信，往后的每一步脚印都承载了你的重量 ，在我内心深处，伴我前行。
-						</p>
-						<button class="btn btn-primary rounded">More</button>
+							<div id="fix2"  class="fixedbox">
+								<h3><a href="#">我和奶奶</a></h3>
+								<span>Feb. 8th</span>					
+								<p>
+									也许再也见不到，但我仍相信，往后的每一步脚印都承载了你的重量 ，在我内心深处，伴我前行。<br /><br />
+									"如果每个人都是一颗小星球，逝去的亲友就是身边的暗物质。我愿能再见你，我知我再见不到你。但你的引力仍在。我感激我们的光锥曾彼此重叠，而你永远改变了我的星轨。
+									纵使再不能相见，你仍是我所在的星系未曾分崩离析的原因，是我宇宙之网的永恒组成。" 
+
+								</p>
+							</div>						
+						    <button id="mo2" class="btn btn-primary rounded more" onclick="more(2)">More</button>
+							<button id="le2"  class="btn btn-primary rounded hi" onclick="less(2)">Close</button>						
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-4 boxt">
@@ -219,12 +231,17 @@
 						<!--	<img src="img/three.gif" />		-->					
 						</div>
 						<div class="boxtext">
-						<h3><a href="#">勇敢</a></h3>
-						<span >Mar. 28th</span>						
-						<p>
-							也许生活总要承受一些孤独，总会面对一些磕碰，这些来自生活的考验，在我们的人生日程里刻下“勇敢”二字。
-						</p>
-						<button class="btn btn-primary rounded">More</button>
+							<div id="fix3" class="fixedbox">
+								<h3><a href="#">生活</a></h3>
+								<span >Mar. 28th</span>						
+								<p>
+									也许生活总要承受一些孤独，总会面对一些磕碰，这些来自生活的考验，在我们的人生日程里刻下“勇敢”二字。<br /><br />
+									一个人的生活并不是像想象中那么美好啊，尤其是当我们和想念的人隔着一道冰冷的屏幕时，感觉彼此都陌生了许多。<br />
+									一个人的生活总是特别容易孤单，尤其每逢佳节之时。
+								</p>
+							</div>
+							<button id="mo3" class="btn btn-primary rounded more" onclick="more(3)">More</button>
+							<button id="le3"  class="btn btn-primary rounded hi" onclick="less(3)">Close</button>						
 						</div>
 					</div>
 				</div>
@@ -449,6 +466,7 @@
 
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js" ></script>
 <script src="http://at.alicdn.com/t/font_654245_iis1gt1hltk2o6r.js"></script>
 
 
