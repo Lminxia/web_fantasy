@@ -297,15 +297,15 @@
 						<h4 class="modal-title">fantasy</h4>						
 					</div>
 					<div class="modal-body" >
-						<form class="enter">
+						<form class="enter" id="enter">
 							<br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-user "></span>
-								<input type="text" class="form-control" placeholder="用户名" required="required"/>
+								<input type="text" class="form-control" placeholder="用户名" name="user" required="required"/>
 							</div><br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
-								<input type="password" class="form-control" placeholder="密码" required="required" />
+								<input type="password" class="form-control" placeholder="密码" name="enterpassword" required="required" />
 							</div><br />
 							<input type="checkbox"/><label>下次自动登录</label>
 							<a href="#" >忘记密码</a><br /><br />
@@ -329,23 +329,23 @@
 						<h4 class="modal-title">fantasy</h4>						
 					</div>
 					<div class="modal-body" >
-						<form class="enrol">
+						<form class="enrol" id="enrol">
 							<br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-envelope "></span>
-								<input type="text" class="form-control" placeholder="邮箱" required="required"/>
+								<input type="text" class="form-control" placeholder="邮箱" name="useremail"/>
 							</div><br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
-								<input type="password" class="form-control" placeholder="密码" required="required" />							
+								<input type="password" class="form-control" placeholder="密码" name="enrolpassword"  id="enrolpassword"/>							
 							</div><br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-lock" ></span>
-								<input type="password" class="form-control" placeholder="再次输入密码" required="required" />							
+								<input type="password" class="form-control" placeholder="再次输入密码" name="comfirmpassword" />							
 							</div><br />
 							<div class="input-group ">
 								<span class="input-group-addon glyphicon glyphicon-phone" ></span>
-								<input type="password" class="form-control" placeholder="手机号码" required="required" />							
+								<input type="password" class="form-control" placeholder="手机号码" name="phone" />							
 							</div><br />
 							<button class="btn btn-success form-control rounded">注册</button>
 								
@@ -466,7 +466,9 @@
 
 <script src="js/jquery-1.9.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/index.js" ></script>
+<script src="js/index.js" ></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/messages_zh.js"></script>
 <script src="http://at.alicdn.com/t/font_654245_iis1gt1hltk2o6r.js"></script>
 
 
